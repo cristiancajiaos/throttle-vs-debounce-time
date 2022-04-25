@@ -1,3 +1,4 @@
+import { computeDecimalDigest } from '@angular/compiler/src/i18n/digest';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -10,6 +11,7 @@ export class LayoutComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }
